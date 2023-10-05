@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0B78BDA2ACE872300630CA5 /* The_Death_SentenceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B78BD92ACE872300630CA5 /* The_Death_SentenceApp.swift */; };
+		D0B78BDC2ACE872300630CA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B78BDB2ACE872300630CA5 /* ContentView.swift */; };
+		D0B78BDE2ACE872600630CA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B78BDD2ACE872600630CA5 /* Assets.xcassets */; };
+		D0B78BE12ACE872600630CA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B78BE02ACE872600630CA5 /* Preview Assets.xcassets */; };
+		D0B78BEB2ACE872600630CA5 /* The_Death_SentenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B78BEA2ACE872600630CA5 /* The_Death_SentenceTests.swift */; };
+		D0B78BF52ACE872600630CA5 /* The_Death_SentenceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B78BF42ACE872600630CA5 /* The_Death_SentenceUITests.swift */; };
+		D0B78BF72ACE872600630CA5 /* The_Death_SentenceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B78BF62ACE872600630CA5 /* The_Death_SentenceUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0B78BE72ACE872600630CA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0B78BCE2ACE872300630CA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0B78BD52ACE872300630CA5;
+			remoteInfo = "The Death Sentence";
+		};
+		D0B78BF12ACE872600630CA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0B78BCE2ACE872300630CA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0B78BD52ACE872300630CA5;
+			remoteInfo = "The Death Sentence";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0B78BD62ACE872300630CA5 /* The Death Sentence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Death Sentence.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B78BD92ACE872300630CA5 /* The_Death_SentenceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Death_SentenceApp.swift; sourceTree = "<group>"; };
+		D0B78BDB2ACE872300630CA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0B78BDD2ACE872600630CA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0B78BE02ACE872600630CA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0B78BE62ACE872600630CA5 /* The Death SentenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Death SentenceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B78BEA2ACE872600630CA5 /* The_Death_SentenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Death_SentenceTests.swift; sourceTree = "<group>"; };
+		D0B78BF02ACE872600630CA5 /* The Death SentenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Death SentenceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B78BF42ACE872600630CA5 /* The_Death_SentenceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Death_SentenceUITests.swift; sourceTree = "<group>"; };
+		D0B78BF62ACE872600630CA5 /* The_Death_SentenceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Death_SentenceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0B78BD32ACE872300630CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B78BE32ACE872600630CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B78BED2ACE872600630CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0B78BCD2ACE872300630CA5 = {
+			isa = PBXGroup;
+			children = (
+				D0B78BD82ACE872300630CA5 /* The Death Sentence */,
+				D0B78BE92ACE872600630CA5 /* The Death SentenceTests */,
+				D0B78BF32ACE872600630CA5 /* The Death SentenceUITests */,
+				D0B78BD72ACE872300630CA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B78BD72ACE872300630CA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0B78BD62ACE872300630CA5 /* The Death Sentence.app */,
+				D0B78BE62ACE872600630CA5 /* The Death SentenceTests.xctest */,
+				D0B78BF02ACE872600630CA5 /* The Death SentenceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0B78BD82ACE872300630CA5 /* The Death Sentence */ = {
+			isa = PBXGroup;
+			children = (
+				D0B78BD92ACE872300630CA5 /* The_Death_SentenceApp.swift */,
+				D0B78BDB2ACE872300630CA5 /* ContentView.swift */,
+				D0B78BDD2ACE872600630CA5 /* Assets.xcassets */,
+				D0B78BDF2ACE872600630CA5 /* Preview Content */,
+			);
+			path = "The Death Sentence";
+			sourceTree = "<group>";
+		};
+		D0B78BDF2ACE872600630CA5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0B78BE02ACE872600630CA5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0B78BE92ACE872600630CA5 /* The Death SentenceTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0B78BEA2ACE872600630CA5 /* The_Death_SentenceTests.swift */,
+			);
+			path = "The Death SentenceTests";
+			sourceTree = "<group>";
+		};
+		D0B78BF32ACE872600630CA5 /* The Death SentenceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0B78BF42ACE872600630CA5 /* The_Death_SentenceUITests.swift */,
+				D0B78BF62ACE872600630CA5 /* The_Death_SentenceUITestsLaunchTests.swift */,
+			);
+			path = "The Death SentenceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0B78BD52ACE872300630CA5 /* The Death Sentence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B78BFA2ACE872600630CA5 /* Build configuration list for PBXNativeTarget "The Death Sentence" */;
+			buildPhases = (
+				D0B78BD22ACE872300630CA5 /* Sources */,
+				D0B78BD32ACE872300630CA5 /* Frameworks */,
+				D0B78BD42ACE872300630CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Death Sentence";
+			productName = "The Death Sentence";
+			productReference = D0B78BD62ACE872300630CA5 /* The Death Sentence.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0B78BE52ACE872600630CA5 /* The Death SentenceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B78BFD2ACE872600630CA5 /* Build configuration list for PBXNativeTarget "The Death SentenceTests" */;
+			buildPhases = (
+				D0B78BE22ACE872600630CA5 /* Sources */,
+				D0B78BE32ACE872600630CA5 /* Frameworks */,
+				D0B78BE42ACE872600630CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0B78BE82ACE872600630CA5 /* PBXTargetDependency */,
+			);
+			name = "The Death SentenceTests";
+			productName = "The Death SentenceTests";
+			productReference = D0B78BE62ACE872600630CA5 /* The Death SentenceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0B78BEF2ACE872600630CA5 /* The Death SentenceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B78C002ACE872600630CA5 /* Build configuration list for PBXNativeTarget "The Death SentenceUITests" */;
+			buildPhases = (
+				D0B78BEC2ACE872600630CA5 /* Sources */,
+				D0B78BED2ACE872600630CA5 /* Frameworks */,
+				D0B78BEE2ACE872600630CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0B78BF22ACE872600630CA5 /* PBXTargetDependency */,
+			);
+			name = "The Death SentenceUITests";
+			productName = "The Death SentenceUITests";
+			productReference = D0B78BF02ACE872600630CA5 /* The Death SentenceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0B78BCE2ACE872300630CA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D0B78BD52ACE872300630CA5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D0B78BE52ACE872600630CA5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D0B78BD52ACE872300630CA5;
+					};
+					D0B78BEF2ACE872600630CA5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D0B78BD52ACE872300630CA5;
+					};
+				};
+			};
+			buildConfigurationList = D0B78BD12ACE872300630CA5 /* Build configuration list for PBXProject "The Death Sentence" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0B78BCD2ACE872300630CA5;
+			productRefGroup = D0B78BD72ACE872300630CA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0B78BD52ACE872300630CA5 /* The Death Sentence */,
+				D0B78BE52ACE872600630CA5 /* The Death SentenceTests */,
+				D0B78BEF2ACE872600630CA5 /* The Death SentenceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0B78BD42ACE872300630CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B78BE12ACE872600630CA5 /* Preview Assets.xcassets in Resources */,
+				D0B78BDE2ACE872600630CA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B78BE42ACE872600630CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B78BEE2ACE872600630CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0B78BD22ACE872300630CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B78BDC2ACE872300630CA5 /* ContentView.swift in Sources */,
+				D0B78BDA2ACE872300630CA5 /* The_Death_SentenceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B78BE22ACE872600630CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B78BEB2ACE872600630CA5 /* The_Death_SentenceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B78BEC2ACE872600630CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B78BF72ACE872600630CA5 /* The_Death_SentenceUITestsLaunchTests.swift in Sources */,
+				D0B78BF52ACE872600630CA5 /* The_Death_SentenceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0B78BE82ACE872600630CA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0B78BD52ACE872300630CA5 /* The Death Sentence */;
+			targetProxy = D0B78BE72ACE872600630CA5 /* PBXContainerItemProxy */;
+		};
+		D0B78BF22ACE872600630CA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0B78BD52ACE872300630CA5 /* The Death Sentence */;
+			targetProxy = D0B78BF12ACE872600630CA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D0B78BF82ACE872600630CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0B78BF92ACE872600630CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0B78BFB2ACE872600630CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Death Sentence/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Berk-Go-zek.The-Death-Sentence";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0B78BFC2ACE872600630CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Death Sentence/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Berk-Go-zek.The-Death-Sentence";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0B78BFE2ACE872600630CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Berk-Go-zek.The-Death-SentenceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Death Sentence.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Death Sentence";
+			};
+			name = Debug;
+		};
+		D0B78BFF2ACE872600630CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Berk-Go-zek.The-Death-SentenceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Death Sentence.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Death Sentence";
+			};
+			name = Release;
+		};
+		D0B78C012ACE872600630CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Berk-Go-zek.The-Death-SentenceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Death Sentence";
+			};
+			name = Debug;
+		};
+		D0B78C022ACE872600630CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Berk-Go-zek.The-Death-SentenceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Death Sentence";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0B78BD12ACE872300630CA5 /* Build configuration list for PBXProject "The Death Sentence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B78BF82ACE872600630CA5 /* Debug */,
+				D0B78BF92ACE872600630CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B78BFA2ACE872600630CA5 /* Build configuration list for PBXNativeTarget "The Death Sentence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B78BFB2ACE872600630CA5 /* Debug */,
+				D0B78BFC2ACE872600630CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B78BFD2ACE872600630CA5 /* Build configuration list for PBXNativeTarget "The Death SentenceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B78BFE2ACE872600630CA5 /* Debug */,
+				D0B78BFF2ACE872600630CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B78C002ACE872600630CA5 /* Build configuration list for PBXNativeTarget "The Death SentenceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B78C012ACE872600630CA5 /* Debug */,
+				D0B78C022ACE872600630CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0B78BCE2ACE872300630CA5 /* Project object */;
+}
